@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+    <div id="map"></div>
+    
+    <header>
+        <img src="https://protecciondatos-lopd.com/empresas/wp-content/uploads/2019/07/uso-imagenes-sin-autorizacion-01.jpg" id="myProyecto">
+        <nav>
+            <ul>
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="../Nosotros/Index.html">Nosostros</a></li>
+                <li><a href="../Servicios/Index.html">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <article></article>
+        
+        <aside id="asaideDerecha">
+            <form action="" id="form">
+                <p>
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </p>
+                <p>
+                    <label for="message">Asunto</label>
+                    <textarea name="message" id="message" rows="10" cols="20" wrap="soft"></textarea>
+                </p>
+                <p>
+                    <label for="countries">Selecione su Pais</label>
+                    <select name="countries" id="countries"></select>
+                </p>
+                <p>
+                    <fieldset>
+                        <legend>Que tipo de dispositivo utiliza:</legend>
+                    
+                        <p>
+                          <input type="radio" id="Telefono" name="drone" value="Telefono"
+                                 checked>
+                          <label for="Telefono">Telefono</label>
+                        </p>
+                    
+                        <p>
+                          <input type="radio" id="Tablet" name="drone" value="Tablet">
+                          <label for="Tablet">Tablet</label>
+                        </p>
+                    
+                        <p>
+                          <input type="radio" id="Computadora" name="drone" value="Computadora">
+                          <label for="Computadora">Computadora</label>
+                        </p>
+                    </fieldset>
+                </p>
+                <p>
+                    <label for="checkbox">Recibir Correos</label>
+                    <input type="checkbox" id="cbox1" value="Recibir Correos" >
+                </p>
+                <p>
+                    <button type="submit">Enviar</button>
+                </p>
+            </form>
+        </aside>
+        <aside id="asaideIzquierda">
+            <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15195.125527794457!2d-63.14430479999999!3d-17.8019688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbo!4v1651623957554!5m2!1sen!2sbo" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </aside>
+
+    </main>
+    <footer></footer>
+
+    <script src="js/form.js"></script>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+   integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+   crossorigin=""></script>
+ 
+</body>
+</html>

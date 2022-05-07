@@ -1,0 +1,173 @@
+header{
+    background-color: gray;
+    border: 5PX chartreuse;
+    width: 100%;
+    height: 100px;
+    margin: 5PX;
+    -khtml-border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius: 10px;
+}
+#myProyecto{
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius: 10px;
+}
+nav{
+    background-color: gray;
+    float: left;
+    margin-top: 20px;
+    margin-left: 65%;
+
+    
+}
+nav ul {
+    list-style: none;
+
+    display: flex;
+  }
+  nav ul li {
+    margin: 5px;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+main{
+    width: 100%;
+    height: 400px;
+}
+
+article{
+    background-color: burlywood;
+    width: 100%;
+    height: 220px;
+    float: left;
+    margin: 5px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius: 10px;
+}
+section#arriba{
+    background-color: burlywood;
+    width: 99%;
+    height: 200px;
+    float: left;
+    margin: 5px;
+    display: flex;
+}
+section#medio{
+    background-color: burlywood;
+    width: 99%;
+    height: 200px;
+    float: left;
+    margin: 5px;
+    display: flex;
+
+}
+
+section#abajo{
+    background-color: burlywood;
+    width: 99%;
+    height: 200px;
+    float: left;
+    margin: 5px;
+    display: flex;
+
+}
+
+section{
+    background-color: gray;
+    width: 100%;
+    height: 630px;
+    float: left;
+    margin: 5px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius: 10px;
+}
+aside{
+    background-color: gray;
+    width: 150px;
+    height: 390px;
+    float: left;
+    margin: 5px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(88, 88, 88);
+    width: 100%;
+    height: 300px;
+    margin: 5px;
+    display: flex;
+    float: left;
+    -khtml-border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius: 10px;
+}
+#icono-animado{
+    height: 150px;
+    width: 150px;
+}
+#contenedor{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+}
+#caja1, #caja2, #caja3{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 70px;
+    padding-top: 70px;
+    padding-right: 70px ;
+}
+img{
+    height: 100%;
+    width: 20%;
+    border-radius: 50%;
+}
+#udi{
+    margin-left: 40%;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+      background-color: rgb(245, 0, 0);
+    }
+    nav{
+        background-color: gray;
+        float: left;
+        margin-top: 20px;
+        margin-left: 30%;
+    
+        
+    }
+  }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    nav{
+        background-color: gray;
+        float: left;
+        margin-top: 20px;
+        margin-left: 10%;
+    
+        
+    }
+  }
